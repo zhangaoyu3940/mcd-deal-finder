@@ -1,0 +1,11 @@
+# 本项目零第三方运行时依赖，仅使用 Python 标准库。
+#
+# 如需运行回归测试（可选，需 Python 3.9+）：
+#   python scripts/mock_mcp_server.py --run-regression
+#
+# 说明：
+# - 项目设计为「零依赖」以便在受限环境中也能直接运行；
+# - 全部功能基于 Python 标准库实现（json / re / dataclasses / datetime 等）；
+# - 若未来引入依赖，请在此文件声明并注明用途与许可证。
+
+# 无运行时依赖

@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.venv/
+venv/
+env/
+
+# 测试与缓存
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# 编辑器
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 操作系统
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# 敏感信息 —— 务必勿提交
+.env
+.env.local
+*.pem
+*.key
+.git-credentials
+
+# MCP 本地配置（含 token，切勿提交）
+mcp.local.json
+mcp_settings.json

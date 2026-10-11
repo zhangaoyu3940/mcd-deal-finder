@@ -5,7 +5,7 @@
 
 [![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
-[![MCP](https://img.shields.io/badge/MCP-compatible-orange.svg)](docs/MCP_INTEGRATION.md)
+[![MCP](https://img.shields.io/badge/MCP-compatible-orange.svg)](MCP_INTEGRATION.md)
 [![无外部依赖](https://img.shields.io/badge/dependencies-0-lightgrey.svg)](requirements.txt)
 
 ---
@@ -122,7 +122,7 @@ score = 节省率×100 - 预算偏离惩罚 - 吃不完惩罚 - 吃不饱惩罚 
 ### 环境要求
 
 - Python 3.9+（**零第三方依赖**，仅标准库）
-- 一个可用的麦当劳 MCP 服务（见 [MCP 接入说明](docs/MCP_INTEGRATION.md)）
+- 一个可用的麦当劳 MCP 服务（见 [MCP 接入说明](MCP_INTEGRATION.md)）
 
 ### 安装
 
@@ -226,11 +226,13 @@ mcd-deal-finder/
 │       ├── mcp-contract.md       # mcd-mcp 接口契约
 │       ├── pricing-rules.md      # 三层优惠模型 + 打分公式
 │       └── fallback.md           # F1~F13 兜底话术
-├── docs/
-│   ├── MCP_INTEGRATION.md        # 接入指南
-│   └── COMPETITION.md            # 参赛声明
+├── docs/                         # 补充文档
+│   └── COMPETITION.md            # 作者参赛信息（赛事信息待填写）
 ├── examples/
 │   └── demo_output.md            # 真实场景输出示例
+├── MCP_INTEGRATION.md            # 麦当劳 MCP 接入说明（大赛必需）
+├── CONTEST_DECLARATION.md        # 官方参赛声明（大赛必需，内容不可改动）
+├── workbuddy.md                  # WorkBuddy 开发上下文（联动奖励核验用）
 ├── requirements.txt
 ├── LICENSE
 ├── README.md

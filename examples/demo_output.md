@@ -110,4 +110,4 @@
 上述输出中的门店与商品信息来自 mock 数据，但**结构与真实 `mcd-mcp` 接口完全一致**：
 菜单的两级结构（`categories` 索引 + `meals` 详情）、`beType` 必传枚举、
 `calculate-price` 的分单位金额口径、随单购标记、券的 `products[]` 适用范围等。
-详见 [MCP 接入说明](../docs/MCP_INTEGRATION.md)。
+详见 [MCP 接入说明](../MCP_INTEGRATION.md)。
